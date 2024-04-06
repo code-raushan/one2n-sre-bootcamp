@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --files --respawn src/index.ts",
+    "prepare": "husky install",
+    "clean": "rimraf dist/",
+    "build": "npm run clean && tsc"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +18,9 @@
     "kysely": "^0.27.3",
     "pg": "^8.11.5",
     "prisma": "^5.12.1",
-    "prisma-kysely": "^1.8.0"
+    "prisma-kysely": "^1.8.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^5.4.4"
