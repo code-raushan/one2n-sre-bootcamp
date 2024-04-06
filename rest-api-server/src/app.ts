@@ -10,9 +10,6 @@ import logger from './utils/logger';
 import { getLocalIP } from './utils/system.util';
 
 const app = express();
-app.set('trust proxy', true);
-app.set('view engine', 'ejs');
-app.set('views', 'src/views');
 
 
 app.use(express.json());
