@@ -19,6 +19,7 @@ const dialect = new PostgresDialect({
 export const db = new Kysely<DB>({ dialect });
 
 export const waitForDBConnection = async () => {
+  logger.info("Attempting to connect to DB")
   try {
     const client = await pool.connect();
     logger.info("Database connected");

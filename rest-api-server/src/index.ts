@@ -6,14 +6,17 @@ import config from './config';
 import { waitForDBConnection } from './db';
 import logger from './utils/logger';
 
-
 (async () => {
-  logger.info('Connecting to Database...');
-  waitForDBConnection();
-  logger.info('DB connected');
+  // logger.info('Connecting to Database...');
+  // waitForDBConnection();
+  // logger.info('DB connected');
 
   const numCPUs = process.env.NODE_ENV === 'production' ? os.cpus().length : 1;
+  console.log({ numCPUs })
   if (cluster.isPrimary) {
+    logger.info('Connecting to Database...');
+    waitForDBConnection();
+    logger.info('DB connected');
     logger.info(`Master ${process.pid} is running`);
 
     // Fork workers...
