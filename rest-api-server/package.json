@@ -1,0 +1,22 @@
+{
+  "name": "rest-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "kysely": "^0.27.3",
+    "pg": "^8.11.5",
+    "prisma": "^5.12.1",
+    "prisma-kysely": "^1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  }
+}
