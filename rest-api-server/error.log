@@ -1,0 +1,64 @@
+[32minfo[39m 22:10:36 : Local IP - 192.168.100.19
+[32minfo[39m 22:10:36 : Connecting to Database...
+[32minfo[39m 22:10:36 : DB connected
+[32minfo[39m 22:10:36 : Master 24604 is running
+[32minfo[39m 22:10:37 : Local IP - 192.168.100.19
+[32minfo[39m 22:10:37 : Connecting to Database...
+[32minfo[39m 22:10:37 : DB connected
+[32minfo[39m 22:10:37 : Worker 24615 started
+[32minfo[39m 22:10:37 : Listening on port 4000
+[32minfo[39m 22:10:37 : Connected!
+[32minfo[39m 22:11:11 : Local IP - 192.168.100.19
+[32minfo[39m 22:11:11 : Connecting to Database...
+[32minfo[39m 22:11:11 : DB connected
+[32minfo[39m 22:11:11 : Master 24828 is running
+[32minfo[39m 22:11:11 : Database connected
+[32minfo[39m 22:11:12 : Local IP - 192.168.100.19
+[32minfo[39m 22:11:12 : Connecting to Database...
+[32minfo[39m 22:11:12 : DB connected
+[32minfo[39m 22:11:12 : Worker 24831 started
+[32minfo[39m 22:11:12 : Listening on port 4000
+[32minfo[39m 22:11:12 : Connected!
+[32minfo[39m 22:11:12 : Database connected
+[32minfo[39m 22:11:50 : Local IP - 192.168.100.19
+[32minfo[39m 22:11:50 : Connecting to Database...
+[32minfo[39m 22:11:50 : DB connected
+[32minfo[39m 22:11:50 : Master 25063 is running
+[32minfo[39m 22:11:51 : Local IP - 192.168.100.19
+[32minfo[39m 22:11:51 : Connecting to Database...
+[32minfo[39m 22:11:51 : DB connected
+[32minfo[39m 22:11:51 : Worker 25074 started
+[32minfo[39m 22:11:51 : Listening on port 4000
+[32minfo[39m 22:11:51 : Connected!
+[32minfo[39m 22:12:22 : Local IP - 192.168.100.19
+[32minfo[39m 22:12:22 : Connecting to Database...
+[32minfo[39m 22:12:22 : DB connected
+[32minfo[39m 22:12:22 : Master 25255 is running
+[32minfo[39m 22:12:24 : Local IP - 192.168.100.19
+[32minfo[39m 22:12:24 : Connecting to Database...
+[32minfo[39m 22:12:24 : DB connected
+[32minfo[39m 22:12:24 : Worker 25271 started
+[32minfo[39m 22:12:24 : Listening on port 4000
+[32minfo[39m 22:12:24 : Connected!
+[32minfo[39m 22:12:47 : Local IP - 192.168.100.19
+[32minfo[39m 22:12:47 : Connecting to Database...
+[32minfo[39m 22:12:47 : DB connected
+[32minfo[39m 22:12:47 : Master 25456 is running
+[31merror[39m 22:12:47 : password authentication failed for user "euronpgdev"
+[32minfo[39m 22:13:06 : Local IP - 192.168.100.19
+[32minfo[39m 22:13:06 : Connecting to Database...
+[32minfo[39m 22:13:06 : DB connected
+[32minfo[39m 22:13:06 : Master 25590 is running
+[31merror[39m 22:13:06 : password authentication failed for user "euronpgdev"
+[32minfo[39m 22:13:27 : Local IP - 192.168.100.19
+[32minfo[39m 22:13:27 : Connecting to Database...
+[32minfo[39m 22:13:27 : DB connected
+[32minfo[39m 22:13:27 : Master 25749 is running
+[32minfo[39m 22:13:27 : Database connected
+[32minfo[39m 22:13:28 : Local IP - 192.168.100.19
+[32minfo[39m 22:13:28 : Connecting to Database...
+[32minfo[39m 22:13:28 : DB connected
+[32minfo[39m 22:13:28 : Worker 25752 started
+[32minfo[39m 22:13:28 : Listening on port 4000
+[32minfo[39m 22:13:28 : Connected!
+[32minfo[39m 22:13:28 : Database connected
