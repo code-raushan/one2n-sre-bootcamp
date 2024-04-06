@@ -19,6 +19,8 @@ app.use(express.json());
 
 app.use(rootRouter);
 
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+
 app.use('*', asyncHandler(notFound));
 
 app.use((
