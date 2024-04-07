@@ -3,7 +3,7 @@ install:
 	npm install
 
 .PHONY: build
-build:
+build: install
 	npm run build
 
 .PHONY: start
