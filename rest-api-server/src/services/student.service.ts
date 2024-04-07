@@ -48,3 +48,5 @@ class StudentService {
         return deletedStudent;
     }
 }
+
+export default new StudentService();
