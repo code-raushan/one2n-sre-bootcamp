@@ -18,7 +18,7 @@ export const getStudentById = async (req: Request, res: Response, next: NextFunc
 export const addStudent = async (req: Request, res: Response, next: NextFunction) => {
     const firstName = req.body.firstName as string;
     const lastName = req.body.lastName as string;
-    const age = req.body.lastName as number;
+    const age = req.body.age as number;
     const standard = req.body.standard as string;
 
     const student = await studentService.addStudent({ firstName, lastName, age, standard });
