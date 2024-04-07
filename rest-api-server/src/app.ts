@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use(rootRouter);
+app.use("/api", rootRouter);
 
 app.get('/favicon.ico', (req, res) => res.status(204).end());
 

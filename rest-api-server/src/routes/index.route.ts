@@ -3,6 +3,6 @@ import v1Router from './v1.route';
 
 const rootRouter = express.Router();
 
-rootRouter.use('/', v1Router);
+rootRouter.use('/v1', v1Router);
 
 export default rootRouter;
