@@ -38,3 +38,4 @@ Deletes a specific student by their ID.
 - Makefile
 - Docker
 - Docker Compose
+- Nginx
