@@ -35,3 +35,6 @@ Deletes a specific student by their ID.
 - PostgreSQL: A powerful, open source object-relational database system.
 - Prisma: An open-source database toolkit.
 - Kysely: A TypeScript-first SQL query builder and runner.
+- Makefile
+- Docker
+- Docker Compose
